@@ -12,8 +12,8 @@ const About = () => {
     scrollTrigger: {
       trigger: "#clip",
       start: "center center",
-      end: "+=800 center",
-      scrub: 0.5,
+      end: "+=400", // reduce the scroll distance
+      scrub: 0.1, // smoother scroll test
       pin: true,
       pinSpacing: true,
     }
