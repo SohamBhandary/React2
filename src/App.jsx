@@ -8,9 +8,9 @@ const App = () => {
   return (
     
      
-    <main className="relative min-h-screen w-screen overflow-x-hidden overflow-y-scroll scrollbar-hide">
+    <main className="relative min-h-screen w-screen overflow-x-hidden overflow-y-scroll scrollbar-hide ">
 
-     
+     <NavBar/>
       <Hero/>
        <About/>
      </main>
