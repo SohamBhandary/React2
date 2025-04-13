@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import AnimatedTitle from './AnimatedTitle'
 import gsap from "gsap";
-// import Button from "./Button";
+import Button from "./Button";
 
 const Story = () => {
     const frameRef=useRef("null");
@@ -90,11 +90,11 @@ const Story = () => {
               opportunities.
             </p>
 
-            {/* <Button
+            <Button
               id="realm-btn"
               title="discover prologue"
               containerClass="mt-5"
-            /> */}
+            />
           </div>
         </div>
 
